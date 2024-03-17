@@ -16,7 +16,7 @@ const Details = () => {
     <section className="text-white font-bold font-description h-min-screen bg-black flex justify-center flex-col items-center px-2">
       <img
         className="pt-10 w-5/6 lg:w-3/6 mb-5"
-        src="/public/img/jason-dent-SnXIF8_2oPw-unsplash.jpg"
+        src="/img/jason-dent-SnXIF8_2oPw-unsplash.jpg"
         alt=""
       />
       <h2 className="text-4xl text-center text-white font-extrabold mb-2 underline decoration-neutral-100/50">
