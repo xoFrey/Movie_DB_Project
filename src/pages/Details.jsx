@@ -11,11 +11,10 @@ const Details = () => {
     setDetail(find);
   }, [movies]);
 
-  console.log(detail);
-
   return (
     <section>
-      <h2>{detail.title}</h2> <p>{detail.year}</p>
+      <h2>{detail.title}</h2>
+      <p>{detail.year}</p>
       <p>{detail.director}</p>
       <p>{detail.duration}</p>
       <Stars rating={detail.rate} />

@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 const MovieList = ({ data }) => {
   return (
     <section>
-      <h2>MovieList</h2>
       <section className="grid-cols-3 grid gap-5 gap-x-10 p-3 px-40">
         {data?.map((item, index) => (
           <Link key={index} to={`/details/${item.title}`}>
