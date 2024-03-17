@@ -14,8 +14,8 @@ import { FilteredMovies, GlobalInput } from "../components/Context";
 
 const Home = () => {
   const [movieData, setMovieData] = useState(movies);
-  const { userInput, setUserInput } = useContext(GlobalInput);
-  const { filteredMovies, setFilteredMovies } = useContext(FilteredMovies);
+  const { userInput } = useContext(GlobalInput);
+  const { filteredMovies } = useContext(FilteredMovies);
 
   return (
     <section>
