@@ -21,7 +21,7 @@ const Home = () => {
   console.log(active);
 
   return (
-    <section className="flex flex-col items-center bg-black">
+    <section className="flex flex-col items-center bg-black h-min-screen">
       <h1 className="bg-bgImage bg-cover bg-center bg-no-repeat h-80 w-full text-5xl md:text-7xl text-white text-center font-headline font-bold  mb-10 py-8 tracking-widest ">
         MovieLand
       </h1>

@@ -9,16 +9,18 @@ function App() {
   const [userInput, setUserInput] = useState("");
   const [filteredMovies, setFilteredMovies] = useState([]);
   return (
-    <FilteredMovies.Provider value={{ filteredMovies, setFilteredMovies }}>
-      <GlobalInput.Provider value={{ userInput, setUserInput }}>
-        <BrowserRouter>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/details/:id" element={<Details />} />
-          </Routes>
-        </BrowserRouter>
-      </GlobalInput.Provider>
-    </FilteredMovies.Provider>
+    <section className="bg-black h-screen">
+      <FilteredMovies.Provider value={{ filteredMovies, setFilteredMovies }}>
+        <GlobalInput.Provider value={{ userInput, setUserInput }}>
+          <BrowserRouter>
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/details/:id" element={<Details />} />
+            </Routes>
+          </BrowserRouter>
+        </GlobalInput.Provider>
+      </FilteredMovies.Provider>
+    </section>
   );
 }
 

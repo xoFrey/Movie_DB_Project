@@ -20,7 +20,7 @@ const Stars = (props) => {
 
   return (
     <>
-      <div className="flex items-center justify-center bg-slate-700">
+      <div className="flex items-center justify-center mb-4">
         {starsRating.map((item, index) => (
           <p key={index}>{item}</p>
         ))}
