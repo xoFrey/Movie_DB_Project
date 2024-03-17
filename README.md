@@ -30,6 +30,10 @@
 <h2><samp>Screenshot</samp></h2>
 
 <p align="center">
-<img  src="./assets/img/Screenshot.png"/>
-  
+<img width="500" height="300" src="./public/img/Mainpagedesk.png"/> <img width="500"  height="300"  src="./public/img/DetailDesktop.png"/> 
 </p>
+<p align="center"><img width="300" src="./public/img/Mainpagemobile.png"/> <img width="300" src="./public/img/Detailmobile.png"/></p>
+
+
+  
+
