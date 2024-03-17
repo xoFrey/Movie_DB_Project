@@ -21,7 +21,8 @@
 <li><samp>Responsive for desktop and tablet and mobile</samp></li>
 <li><samp>Hover effects</samp></li>
 <li><samp>Flexbox</samp></li>
-  <li><samp>Detail Page for each Movie</samp></li>
+<li><samp>Made with local database</samp></li>
+<li><samp>Dynamic Detail Page for each Movie</samp></li>
 </ul>
 
 
