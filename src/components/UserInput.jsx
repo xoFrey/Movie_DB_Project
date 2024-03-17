@@ -13,6 +13,7 @@ const UserInput = ({ movieData, setMovieData }) => {
     <section>
       <form>
         <input
+          className="bg-neutral-950 border rounded-md px-10 py-2 mb-4 text-white placeholder:text-center placeholder:font-description placeholder:text-gray-100 tracking-widest"
           type="text"
           name="userInput"
           placeholder="Search a Movie"
